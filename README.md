@@ -61,60 +61,54 @@ Imperial College London. (2025).
 DERM12345 [Data set]. ISIC Archive.
 https://doi.org/10.34970/705541
 
+# Objectives of Analysis
+The objectives of this project are:
 
-# Tujuan Analisis
-Tujuan analisis adalah membangun model klasifikasi citra kanker kulit yang akurat, membantu deteksi dini, memahami pola visual penyakit, Analisis tidak hanya berfokus pada klasifikasi, tetapi juga pada interpretability model dan robustness terhadap variasi data medis.
-
-# Dataset
-Dataset yang digunakan adalah Skin Cancer MNIST: HAM10000, dengan karakteristik:
-- 10.015 gambar dermatoskopi
-- 7 kelas penyakit kulit
-- Metadata tambahan
+1. To classify skin lesions using machine learning and deep learning methods.
+2. To compare the performance of different classification models.
+3. To analyze the effectiveness of large-scale dermatoscopic image datasets.
+4. To implement big data concepts in medical image analytics.
+5. To support early skin cancer detection using AI-based systems.
+6. To explore scalable image-processing pipelines for healthcare applications.
 
 # Big Data Characteristics (5V + 3V)
+This project implements the concept of Big Data through the following 8V characteristics:
+
 1. Volume
 
-Dataset terdiri dari lebih dari 10.000 citra medis beresolusi tinggi.
-Meskipun tidak berskala petabyte, ukuran ini cukup besar untuk analisis citra berbasis deep learning.
+The datasets contain more than 22,000 high-resolution dermatoscopic images combined.
 
 2. Velocity
 
-Dataset bersifat statis (tidak real-time).
-Namun dalam implementasi nyata, data citra medis dapat berkembang menjadi sistem streaming (real-time diagnosis).
+Medical imaging data continues to grow rapidly due to increasing dermatology imaging systems and healthcare digitization.
 
 3. Variety
 
-Memiliki variasi tinggi:
-- 7 kelas penyakit kulit
-- Data berupa citra + metadata
+The project involves multiple image categories, lesion subclasses, metadata, annotations, and image formats.
 
 4. Veracity
 
-Data berasal dari diagnosis medis ahli, namun tetap memiliki tantangan seperti:
-- Noise pada label
-- Class imbalance
+The datasets are annotated and validated by dermatology experts, improving data reliability.
 
 5. Value
 
-Memiliki nilai tinggi karena dapat digunakan untuk:
-- Deteksi dini kanker kulit
-- Pengembangan sistem AI di bidang kesehatan
+The project contributes to early skin cancer detection and AI-assisted healthcare diagnostics.
 
 6. Variability
 
-Variasi tinggi pada:
--  Bentuk dan warna lesi
--  Kondisi pencahayaan
--  Perbedaan alat pengambilan gambar
+Skin lesions vary significantly in color, texture, shape, and size across patients and skin types.
+
 7. Visualization
 
-Dataset berbasis citra memungkinkan:
--  Visualisasi langsung
--  Heatmap (Grad-CAM)
--  Analisis distribusi kelas
-  
-8. Validity
+The project utilizes visualization techniques such as:
 
-Data dikumpulkan dari sumber medis terpercaya, namun tetap memerlukan:
--  Validasi model
--  Evaluasi performa yang ketat
+- Class distribution charts
+- Image augmentation previews
+- Confusion matrix
+- ROC-AUC curves
+- Feature importance visualization
+
+8. Vulnerability
+
+Medical image datasets involve healthcare-related information that requires responsible data handling and ethical AI considerations.
+
