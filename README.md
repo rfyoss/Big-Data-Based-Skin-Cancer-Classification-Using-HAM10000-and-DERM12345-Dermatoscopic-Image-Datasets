@@ -1,23 +1,66 @@
-# Skin Cancer Classification using HAM10000 Dataset
+# Skin Cancer Classification and Analysis Using HAM10000 & DERM12345 Datasets
 # Project Overview
-Project ini bertujuan untuk membangun model machine learning / deep learning dalam mengklasifikasikan citra lesi kulit ke dalam berbagai jenis kanker kulit menggunakan dataset HAM10000.
+This project focuses on Skin Cancer Classification and Analysis using two large-scale dermatoscopic image datasets:
 
-Dataset ini berisi lebih dari 10.000 gambar dermatoskopi yang merepresentasikan berbagai kondisi kulit, termasuk kanker dan non-kanker.
+1. HAM10000 Dataset
+2. DERM12345 Dataset
 
-# Sumber Data
-Dataset HAM10000 berasal dari penelitian medis yang dipublikasikan oleh tim dermatologi dari MEDICAL UNIVERSITY OF VIENNA dan MEDICAL UNIVERSITY OF GRAZ
-Dataset ini dikembangkan untuk mendukung riset diagnosis kanker kulit berbasis machine learning.
+The project aims to develop a data-driven and scalable medical imaging pipeline for skin lesion classification using machine learning and deep learning approaches. The study also explores the implementation of big data concepts in healthcare imaging analytics.
 
-Dapat diakses melalui:
-- Harvard Dataverse (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T)
-- kaggle (https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+# Project Title
+Big Data-Based Skin Cancer Classification Using HAM10000 and DERM12345 Dermatoscopic Image Datasets
 
-# Objectives
-- Mengembangkan model klasifikasi citra kanker kulit
-- Mendukung deteksi dini kanker kulit
-- Menganalisis pola visual lesi kulit
-- Mengevaluasi performa model
-- Mengembangkan model yang interpretatif
+# Datasets
+1. HAM10000 Dataset
+
+The HAM10000 (“Human Against Machine with 10000 training images”) dataset is one of the most widely used public datasets for pigmented skin lesion analysis.
+
+Dataset Characteristics
+- More than 10,000 dermatoscopic images
+- Multiple lesion categories
+- Expert-labeled annotations
+- Widely used for benchmarking skin cancer classification models
+
+Citation
+
+Tschandl, P., Rosendahl, C., & Kittler, H. (2018). The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Scientific Data, 5, 180161. DOI: https://doi.org/10.1038/sdata.2018.161
+
+2. DERM12345 Dataset
+
+DERM12345 is a large-scale dermatoscopic image dataset containing 12,345 high-resolution images categorized into:
+
+- 5 super classes
+- 15 main classes
+- 40 subclasses
+
+The dataset was collected in Turkiye and contains diverse skin lesion variations from different skin types.
+
+Dataset Characteristics
+- 12,345 high-resolution images
+- 40 subclasses of skin lesions
+- Expert annotations
+- Diverse skin types
+- Large hierarchical classification structure
+
+Citation
+
+Imperial College London. (2025). DERM12345 [Data set]. ISIC Archive. DOI: https://doi.org/10.34970/705541
+
+# License and Citation
+This project uses publicly available datasets for educational and research purposes.
+Please cite the original dataset authors when using the datasets:
+
+- HAM10000:
+Tschandl, P., Rosendahl, C., & Kittler, H. (2018).
+The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions.
+Scientific Data, 5, 180161.
+https://doi.org/10.1038/sdata.2018.161
+
+- DERM12345:
+Imperial College London. (2025).
+DERM12345 [Data set]. ISIC Archive.
+https://doi.org/10.34970/705541
+
 
 # Tujuan Analisis
 Tujuan analisis adalah membangun model klasifikasi citra kanker kulit yang akurat, membantu deteksi dini, memahami pola visual penyakit, Analisis tidak hanya berfokus pada klasifikasi, tetapi juga pada interpretability model dan robustness terhadap variasi data medis.
