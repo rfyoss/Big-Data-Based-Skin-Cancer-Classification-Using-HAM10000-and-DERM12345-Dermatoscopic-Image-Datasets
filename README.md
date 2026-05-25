@@ -21,10 +21,6 @@ Dataset Characteristics
 - Expert-labeled annotations
 - Widely used for benchmarking skin cancer classification models
 
-Citation
-
-Tschandl, P., Rosendahl, C., & Kittler, H. (2018). The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Scientific Data, 5, 180161. DOI: https://doi.org/10.1038/sdata.2018.161
-
 2. DERM12345 Dataset
 
 DERM12345 is a large-scale dermatoscopic image dataset containing 12,345 high-resolution images categorized into:
@@ -42,23 +38,24 @@ Dataset Characteristics
 - Diverse skin types
 - Large hierarchical classification structure
 
-Citation
+## Dataset License and Citation
+This project uses publicly available datasets for educational, research, and portfolio purposes.
 
-Imperial College London. (2025). DERM12345 [Data set]. ISIC Archive. DOI: https://doi.org/10.34970/705541
+### Dataset Licenses
+- HAM10000 Dataset — CC BY-NC 4.0
+- DERM12345 Dataset — CC BY 4.0
 
-# License and Citation
-This project uses publicly available datasets for educational and research purposes.
-Please cite the original dataset authors when using the datasets:
+Please cite the original dataset creators and publications when using these datasets.
 
-- HAM10000:
-Tschandl, P., Rosendahl, C., & Kittler, H. (2018).
-The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions.
-Scientific Data, 5, 180161.
+### HAM10000
+Tschandl, P., Rosendahl, C., & Kittler, H. (2018).  
+*The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions*.  
+Scientific Data, 5, 180161.  
 https://doi.org/10.1038/sdata.2018.161
 
-- DERM12345:
-Imperial College London. (2025).
-DERM12345 [Data set]. ISIC Archive.
+### DERM12345
+Imperial College London. (2025).  
+*DERM12345* [Data set]. ISIC Archive.  
 https://doi.org/10.34970/705541
 
 # Objectives of Analysis
