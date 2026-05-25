@@ -7,9 +7,6 @@ This project focuses on Skin Cancer Classification and Analysis using two large-
 
 The project aims to develop a data-driven and scalable medical imaging pipeline for skin lesion classification using machine learning and deep learning approaches. The study also explores the implementation of big data concepts in healthcare imaging analytics.
 
-# Project Title
-Big Data-Based Skin Cancer Classification Using HAM10000 and DERM12345 Dermatoscopic Image Datasets
-
 # Datasets
 1. HAM10000 Dataset
 
